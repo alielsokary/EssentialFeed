@@ -13,7 +13,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 	
 	func test_init_doesNotMessageStoreUponCreation() {
 		let (_, store) = makeSUT()
-
+		
 		XCTAssertEqual(store.receivedMessages, [])
 	}
 	
@@ -96,7 +96,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 		let (sut, store) = makeSUT(currentDate: { fixedCurrentDate })
 		sut.load(completion: { _ in })
 		store.completeRetrieval(with: feed.local, timestamp: lessThanSevenDaysOldTimestamp)
-
+		
 		XCTAssertEqual(store.receivedMessages, [.retrieve])
 	}
 	
@@ -107,7 +107,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 		let (sut, store) = makeSUT(currentDate: { fixedCurrentDate })
 		sut.load(completion: { _ in })
 		store.completeRetrieval(with: feed.local, timestamp: sevenDaysOldTimestamp)
-
+		
 		XCTAssertEqual(store.receivedMessages, [.retrieve, .deleteCachedFeed])
 	}
 	
@@ -118,8 +118,20 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 		let (sut, store) = makeSUT(currentDate: { fixedCurrentDate })
 		sut.load(completion: { _ in })
 		store.completeRetrieval(with: feed.local, timestamp: moreThanSevenDaysOldTimestamp)
-
+		
 		XCTAssertEqual(store.receivedMessages, [.retrieve, .deleteCachedFeed])
+	}
+	
+	func test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() {
+		let store = FeedStoreSpy()
+		var sut: LocalFeedLoader? = LocalFeedLoader(store: store, currentDate: Date.init)
+		
+		var receivedResults = [LocalFeedLoader.LoadResult]()
+		sut?.load(completion: { receivedResults.append($0) })
+		sut = nil
+		store.completeRetrievalWithEmptyCache()
+		
+		XCTAssertTrue(receivedResults.isEmpty)
 	}
 	
 	// MARK: - Helpers
