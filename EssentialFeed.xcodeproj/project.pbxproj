@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		413B5C9129EDFAED0052D9DD /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B5C9029EDFAED0052D9DD /* FeedCachePolicy.swift */; };
+		413B5C9329EF60640052D9DD /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B5C9229EF60640052D9DD /* CodableFeedStoreTests.swift */; };
 		4174FBEE25CDAF9F005A5A6C /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174FBED25CDAF9F005A5A6C /* RemoteFeedLoader.swift */; };
 		417B359625A0C04000DD61FF /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B359525A0C04000DD61FF /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		417BF4E3274A431500331FB0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417BF4E2274A431400331FB0 /* HTTPClient.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		413B5C9029EDFAED0052D9DD /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
+		413B5C9229EF60640052D9DD /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		4174FBED25CDAF9F005A5A6C /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		417B359525A0C04000DD61FF /* LoadFeedFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		417BF4E2274A431400331FB0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				41FB94DE2783A0E900851B0B /* CacheFeedUseCaseTests.swift */,
 				41903CC929DE0F8F009F1A41 /* LoadFeedFromCacheUseCaseTests.swift */,
 				41903CCE29E74698009F1A41 /* ValidateFeedCacheUseCaseTests.swift */,
+				413B5C9229EF60640052D9DD /* CodableFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413B5C9329EF60640052D9DD /* CodableFeedStoreTests.swift in Sources */,
 				417B359625A0C04000DD61FF /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				417BF4EB274DAF9000331FB0 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				41903CD329E74F1B009F1A41 /* SharedTestHelpers.swift in Sources */,
