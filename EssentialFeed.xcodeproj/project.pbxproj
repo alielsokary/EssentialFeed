@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4109381429FFBCFB00061AD5 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109381329FFBCFB00061AD5 /* CoreDataHelpers.swift */; };
+		4109381629FFBDFF00061AD5 /* ManagedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109381529FFBDFF00061AD5 /* ManagedCache.swift */; };
+		4109381829FFBE2100061AD5 /* ManagedFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109381729FFBE2100061AD5 /* ManagedFeedImage.swift */; };
 		41148A4029FB1141002ACC2A /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41148A3F29FB1141002ACC2A /* CodableFeedStore.swift */; };
 		41148A4229FEAE48002ACC2A /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41148A4129FEAE48002ACC2A /* FeedStoreSpecs.swift */; };
 		41148A4429FEAF89002ACC2A /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41148A4329FEAF89002ACC2A /* XCTestCase+FeedStoreSpecs.swift */; };
@@ -65,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		4109381329FFBCFB00061AD5 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
+		4109381529FFBDFF00061AD5 /* ManagedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedCache.swift; sourceTree = "<group>"; };
+		4109381729FFBE2100061AD5 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 		41148A3F29FB1141002ACC2A /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		41148A4129FEAE48002ACC2A /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		41148A4329FEAF89002ACC2A /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 			children = (
 				41148A4E29FEFF04002ACC2A /* CoreDataFeedStore.swift */,
 				4109381329FFBCFB00061AD5 /* CoreDataHelpers.swift */,
+				4109381529FFBDFF00061AD5 /* ManagedCache.swift */,
+				4109381729FFBE2100061AD5 /* ManagedFeedImage.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -452,7 +458,9 @@
 				417BF4E3274A431500331FB0 /* HTTPClient.swift in Sources */,
 				41A84849259FC2D900581967 /* FeedImage.swift in Sources */,
 				417BF4ED274E6AEB00331FB0 /* URLSessionHTTPClient.swift in Sources */,
+				4109381629FFBDFF00061AD5 /* ManagedCache.swift in Sources */,
 				41148A4F29FEFF04002ACC2A /* CoreDataFeedStore.swift in Sources */,
+				4109381829FFBE2100061AD5 /* ManagedFeedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
