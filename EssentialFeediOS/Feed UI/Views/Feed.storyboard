@@ -79,6 +79,9 @@ Location</string>
                                                             <state key="normal" title="↻">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="XdN-55-8by" eventType="touchUpInside" id="0EX-NE-IMO"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -119,6 +122,14 @@ Location</string>
                                         <constraint firstAttribute="trailingMargin" secondItem="aAp-ZB-ozw" secondAttribute="trailing" id="Xju-kC-IMT"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="nyp-KY-4Hi" id="tce-Kj-9rP"/>
+                                    <outlet property="feedImageContainer" destination="Dqo-fg-Szf" id="AdT-rM-0DA"/>
+                                    <outlet property="feedImageRetryButton" destination="uOn-cE-fVi" id="2Bo-LP-pmK"/>
+                                    <outlet property="feedImageView" destination="anh-Qp-OmK" id="J17-uI-FLz"/>
+                                    <outlet property="locationContainer" destination="I0a-f2-tVB" id="BE5-pb-oEq"/>
+                                    <outlet property="locationLabel" destination="JXM-Hn-SXB" id="Ydg-gp-Yri"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
