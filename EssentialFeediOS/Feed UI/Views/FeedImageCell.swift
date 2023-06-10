@@ -15,10 +15,16 @@ public final class FeedImageCell: UITableViewCell {
     @IBOutlet private(set) public var feedImageView: UIImageView!
     @IBOutlet private(set) public var feedImageRetryButton: UIButton!
     @IBOutlet private(set) public var descriptionLabel: UILabel!
-	
-	var onRetry: (() -> Void)?
-	
-	@IBAction private func retryButtonTapped() {
-		onRetry?()
-	}
+    
+    var onRetry: (() -> Void)?
+    var onReuse: (() -> Void)?
+    
+    public override func prepareForReuse() {
+        super.prepareForReuse()
+        onReuse?()
+    }
+    
+    @IBAction private func retryButtonTapped() {
+        onRetry?()
+    }
 }
