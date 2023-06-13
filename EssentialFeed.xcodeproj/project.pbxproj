@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		410321202A38AA83008CD4E4 /* MainQueueDispatchDecoraator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4103211F2A38AA83008CD4E4 /* MainQueueDispatchDecoraator.swift */; };
 		410321222A38AAF2008CD4E4 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410321212A38AAF2008CD4E4 /* WeakRefVirtualProxy.swift */; };
+		410321242A38AB49008CD4E4 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410321232A38AB49008CD4E4 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		4106D4972A34D85600F05AD5 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106D4962A34D85600F05AD5 /* UITableView+Dequeueing.swift */; };
 		4106D4992A34D9C200F05AD5 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106D4982A34D9C200F05AD5 /* UIImageView+Extension.swift */; };
 		4109381429FFBCFB00061AD5 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109381329FFBCFB00061AD5 /* CoreDataHelpers.swift */; };
@@ -139,6 +140,7 @@
 /* Begin PBXFileReference section */
 		4103211F2A38AA83008CD4E4 /* MainQueueDispatchDecoraator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecoraator.swift; sourceTree = "<group>"; };
 		410321212A38AAF2008CD4E4 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
+		410321232A38AB49008CD4E4 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		4106D4962A34D85600F05AD5 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		4106D4982A34D9C200F05AD5 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		4109381329FFBCFB00061AD5 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				413686622A2BBE3B006740C9 /* FeedUIComposer.swift */,
 				4103211F2A38AA83008CD4E4 /* MainQueueDispatchDecoraator.swift */,
 				410321212A38AAF2008CD4E4 /* WeakRefVirtualProxy.swift */,
+				410321232A38AB49008CD4E4 /* FeedImageDataLoaderPresentationAdapter.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -817,6 +820,7 @@
 				41A4165C2A33623000065F8F /* FeedImagePresenter.swift in Sources */,
 				412D5E882A14C34200994995 /* FeedViewController.swift in Sources */,
 				41456E5B2A1B9697003AAC40 /* FeedImageCell.swift in Sources */,
+				410321242A38AB49008CD4E4 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				41A416582A2F946100065F8F /* FeedImageViewModel.swift in Sources */,
 				413686602A2BBA26006740C9 /* FeedImageCellController.swift in Sources */,
 				413686632A2BBE3C006740C9 /* FeedUIComposer.swift in Sources */,
