@@ -13,8 +13,6 @@ import Foundation
 	private struct Root: Decodable {
 		let items: [RemoteFeedItem]
 	}
-
-	private static var OK_200: Int { return 200 }
 	
 	 static func map(_ data: Data, from response: HTTPURLResponse) throws -> [RemoteFeedItem] {
 		
