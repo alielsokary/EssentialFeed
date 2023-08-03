@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		410C86532A5C4EE2000F0A78 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C86522A5C4EE2000F0A78 /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		410C86552A5D9111000F0A78 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C86542A5D9111000F0A78 /* FeedLoaderWithFallbackComposite.swift */; };
-		416293E12A7AF92200777EE2 /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E02A7AF92200777EE2 /* DebuggingSceneDelegate.swift */; };
 		416293E32A7BF40000777EE2 /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E22A7BF40000777EE2 /* SceneDelegateTests.swift */; };
 		416293EA2A7C0EBA00777EE2 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */; };
 		416293EB2A7C0EBA00777EE2 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E92A7C0EB900777EE2 /* FeedImageDataLoaderPresentationAdapter.swift */; };
@@ -81,7 +80,6 @@
 /* Begin PBXFileReference section */
 		410C86522A5C4EE2000F0A78 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		410C86542A5D9111000F0A78 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
-		416293E02A7AF92200777EE2 /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		416293E22A7BF40000777EE2 /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 		416293E42A7C0EB900777EE2 /* MainQueueDispatchDecoraator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecoraator.swift; sourceTree = "<group>"; };
 		416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 			children = (
 				41676BE32A55AF8400641FF8 /* AppDelegate.swift */,
 				41676BE52A55AF8400641FF8 /* SceneDelegate.swift */,
-				416293E02A7AF92200777EE2 /* DebuggingSceneDelegate.swift */,
 				416293E72A7C0EB900777EE2 /* FeedUIComposer.swift */,
 				416293E42A7C0EB900777EE2 /* MainQueueDispatchDecoraator.swift */,
 				416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */,
@@ -345,7 +342,6 @@
 				416293EB2A7C0EBA00777EE2 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				410C86552A5D9111000F0A78 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				41F700682A79B1EA002EF7BC /* FeedLoaderCacheDecorator.swift in Sources */,
-				416293E12A7AF92200777EE2 /* DebuggingSceneDelegate.swift in Sources */,
 				416293ED2A7C0EBA00777EE2 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				41676BE62A55AF8400641FF8 /* SceneDelegate.swift in Sources */,
 				41F700592A78639E002EF7BC /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
