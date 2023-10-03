@@ -94,3 +94,5 @@ private extension FeedImageDataCache {
         save(data, for: url) { _ in }
     }
 }
+
+extension RemoteLoader: FeedLoader where Resource == [FeedImage] {}
