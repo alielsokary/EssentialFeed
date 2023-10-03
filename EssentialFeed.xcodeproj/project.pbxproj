@@ -84,7 +84,6 @@
 		41A8483B259FC29900581967 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8483A259FC29900581967 /* EssentialFeedTests.swift */; };
 		41A8483D259FC29900581967 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A8482F259FC29800581967 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41A84849259FC2D900581967 /* FeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84848259FC2D900581967 /* FeedImage.swift */; };
-		41A8484D259FC3C000581967 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8484C259FC3C000581967 /* FeedLoader.swift */; };
 		41AD3B7B2A1F8D240012C5C7 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD3B7A2A1F8D240012C5C7 /* UIView+Shimmering.swift */; };
 		41B48A2B2A4BB45A00D4DF30 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B48A2A2A4BB45A00D4DF30 /* FeedPresenter.swift */; };
 		41B48A2C2A4BB53600D4DF30 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B48A262A4BB28500D4DF30 /* Feed.strings */; };
@@ -226,7 +225,6 @@
 		41A8483A259FC29900581967 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		41A8483C259FC29900581967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A84848259FC2D900581967 /* FeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImage.swift; sourceTree = "<group>"; };
-		41A8484C259FC3C000581967 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		41AD3B7A2A1F8D240012C5C7 /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
 		41B48A252A4BB28500D4DF30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		41B48A272A4BB28900D4DF30 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
@@ -617,7 +615,6 @@
 			isa = PBXGroup;
 			children = (
 				41A84848259FC2D900581967 /* FeedImage.swift */,
-				41A8484C259FC3C000581967 /* FeedLoader.swift */,
 				415833B92A27718000DD63BA /* FeedImageDataLoader.swift */,
 				41F700652A79B100002EF7BC /* FeedCache.swift */,
 				41F7006F2A79B8DD002EF7BC /* FeedImageDataCache.swift */,
@@ -970,7 +967,6 @@
 			files = (
 				4109381429FFBCFB00061AD5 /* CoreDataHelpers.swift in Sources */,
 				417BF4E5274A43BE00331FB0 /* FeedItemsMapper.swift in Sources */,
-				41A8484D259FC3C000581967 /* FeedLoader.swift in Sources */,
 				412D32852A4DCF9800ED8824 /* FeedImageViewModel.swift in Sources */,
 				413B5C9129EDFAED0052D9DD /* FeedCachePolicy.swift in Sources */,
 				412D328D2A50862800ED8824 /* RemoteFeedImageDataLoader.swift in Sources */,
