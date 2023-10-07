@@ -12,7 +12,7 @@
 		416293EA2A7C0EBA00777EE2 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */; };
 		416293EB2A7C0EBA00777EE2 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E92A7C0EB900777EE2 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		416293EC2A7C0EBA00777EE2 /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E72A7C0EB900777EE2 /* FeedUIComposer.swift */; };
-		416293ED2A7C0EBA00777EE2 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E82A7C0EB900777EE2 /* FeedLoaderPresentationAdapter.swift */; };
+		416293ED2A7C0EBA00777EE2 /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E82A7C0EB900777EE2 /* LoadResourcePresentationAdapter.swift */; };
 		416293EE2A7C0EBA00777EE2 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293E62A7C0EB900777EE2 /* FeedViewAdapter.swift */; };
 		416293F92A7C0F0B00777EE2 /* UIRefreshControl+TestHelpers.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293F02A7C0F0A00777EE2 /* UIRefreshControl+TestHelpers.swift .swift */; };
 		416293FA2A7C0F0B00777EE2 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416293F32A7C0F0B00777EE2 /* UIButton+TestHelpers.swift */; };
@@ -76,7 +76,7 @@
 		416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		416293E62A7C0EB900777EE2 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		416293E72A7C0EB900777EE2 /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
-		416293E82A7C0EB900777EE2 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		416293E82A7C0EB900777EE2 /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		416293E92A7C0EB900777EE2 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		416293F02A7C0F0A00777EE2 /* UIRefreshControl+TestHelpers.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift .swift"; sourceTree = "<group>"; };
 		416293F12A7C0F0B00777EE2 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				416293E72A7C0EB900777EE2 /* FeedUIComposer.swift */,
 				416293E52A7C0EB900777EE2 /* WeakRefVirtualProxy.swift */,
 				416293E92A7C0EB900777EE2 /* FeedImageDataLoaderPresentationAdapter.swift */,
-				416293E82A7C0EB900777EE2 /* FeedLoaderPresentationAdapter.swift */,
+				416293E82A7C0EB900777EE2 /* LoadResourcePresentationAdapter.swift */,
 				416293E62A7C0EB900777EE2 /* FeedViewAdapter.swift */,
 				41676BE72A55AF8400641FF8 /* ViewController.swift */,
 				41676BEC2A55AF8500641FF8 /* Assets.xcassets */,
@@ -318,7 +318,7 @@
 				41676BE42A55AF8400641FF8 /* AppDelegate.swift in Sources */,
 				41D8998C2A8EB1D400291E5F /* CombineHelpers.swift in Sources */,
 				416293EB2A7C0EBA00777EE2 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
-				416293ED2A7C0EBA00777EE2 /* FeedLoaderPresentationAdapter.swift in Sources */,
+				416293ED2A7C0EBA00777EE2 /* LoadResourcePresentationAdapter.swift in Sources */,
 				41676BE62A55AF8400641FF8 /* SceneDelegate.swift in Sources */,
 				416293EC2A7C0EBA00777EE2 /* FeedUIComposer.swift in Sources */,
 				416293EA2A7C0EBA00777EE2 /* WeakRefVirtualProxy.swift in Sources */,
