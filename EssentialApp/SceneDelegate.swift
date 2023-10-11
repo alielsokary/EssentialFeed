@@ -62,7 +62,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func showComments(for image: FeedImage) {
-        let url = remoteURL.appendingPathComponent("/v1/image/\(image.id)/comments")
+        let url = ImageCommentsEndpoint.get(image.id).url(baseURL: remoteURL)
         let comments = CommentsUIComposer.commentsComposedWith(commentsLoader: makeCommentsLoader(url: url))
         navigationController.pushViewController(comments, animated: true)
     }
@@ -77,7 +77,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func makeRemoteFeedLoaderWithLocalFallback() -> AnyPublisher<[FeedImage], Error> {
-        let url = remoteURL.appendingPathComponent("/v1/feed")
+        let url = FeedEndpoint.get.url(baseURL: remoteURL)
         return httpClient
             .getPublisher(url: url)
             .tryMap(FeedItemsMapper.map)
