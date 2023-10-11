@@ -31,7 +31,7 @@ final class FeedViewAdapter: ResourceView {
             let view = FeedImageCellController(
                 viewModel: FeedImagePresenter.map(model),
                 delegate: adapter) { [selection] in
-                    selection(model)
+                    selection(model) 
                 }
             
             adapter.presenter = LoadResourcePresenter(
