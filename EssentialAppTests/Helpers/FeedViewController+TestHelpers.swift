@@ -85,6 +85,10 @@ extension ListViewController {
         return simulateFeedImageViewVisible(at: index)?.renderedImage
     }
     
+    var canLoadMoreFeed: Bool {
+        loadMoreFeedCell() != nil
+    }
+    
     func simulateErrorViewTap() {
         errorView.simulateTap()
     }
